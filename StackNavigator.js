@@ -3,10 +3,10 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import HomeScreen from './src/screens/Home.screen';
-import WorkoutScreen from './src/screens/Workout.screen';
-import FitScreen from './src/screens/Fit.screen';
-import RestScreen from './src/screens/Rest.screen';
+import HomeScreen from './src/screens/home/Home.screen';
+import Exercises from './src/screens/exercise/Exercises.screen';
+import ActiveExerciseScreen from './src/screens/active-exercise/ActiveExercise.screen';
+import RestScreen from './src/screens/rest/Rest.screen';
 
 const Stack = createNativeStackNavigator();
 
@@ -16,11 +16,15 @@ const StackNavigator = () => {
             <Stack.Navigator>
                 <Stack.Screen name='Home' component={HomeScreen} options={{ headerShown: false }} />
                 <Stack.Screen
-                    name='Workout'
-                    component={WorkoutScreen}
+                    name='Exercises'
+                    component={Exercises}
                     options={{ headerShown: false }}
                 />
-                <Stack.Screen name='Fit' component={FitScreen} options={{ headerShown: false }} />
+                <Stack.Screen
+                    name='ActiveExercise'
+                    component={ActiveExerciseScreen}
+                    options={{ headerShown: false }}
+                />
                 <Stack.Screen name='Rest' component={RestScreen} options={{ headerShown: false }} />
             </Stack.Navigator>
         </NavigationContainer>

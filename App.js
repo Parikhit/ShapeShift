@@ -1,10 +1,14 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-import HomeScreen from './src/screens/Home.screen';
+import { StyleSheet } from 'react-native';
 import StackNavigator from './StackNavigator';
 
+import { FitnessProvider } from './src/contexts/fitness.context';
+
 export default function App() {
-    return <StackNavigator />;
+    return (
+        <FitnessProvider>
+            <StackNavigator />
+        </FitnessProvider>
+    );
 }
 
 const styles = StyleSheet.create({

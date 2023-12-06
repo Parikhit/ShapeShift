@@ -14,7 +14,7 @@ const FitnessCards = () => {
                 return (
                     <Pressable
                         onPress={() =>
-                            navigation.navigate('Workout', {
+                            navigation.navigate('Exercises', {
                                 id: item.id,
                                 image: item.image,
                                 exercises: item.excersises,
