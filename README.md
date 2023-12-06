@@ -39,11 +39,11 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Get ready to embark on a fitness journey like never before with FitReact. Download the app and unleash the power of React Native, Context API, Styled Components, and React Hooks to achieve your fitness goals while tracking calories, time, and full-body workouts performed.
 
 # Screenshots :
-![](https://github.com/Parikhit/ShapeShift/assets/42086563/11bfaa78-478c-461c-a72b-d47745fa1d41 {width=100px height=400px})
-![](https://github.com/Parikhit/ShapeShift/assets/42086563/c02534b7-1afc-4257-a191-a488d55129f6 {width=100px height=400px})
-![](https://github.com/Parikhit/ShapeShift/assets/42086563/f193f098-df7a-4b93-8ec5-d1616606a1b0 {width=100px height=400px})
-![](https://github.com/Parikhit/ShapeShift/assets/42086563/0b858424-fe12-4b2b-871a-91ffd22d3a8c {width=100px height=400px})
-![](https://github.com/Parikhit/ShapeShift/assets/42086563/ac10e9dd-a4c3-4a86-9df4-718a439b0e04 {width=100px height=400px})
+![Alt text1](https://github.com/Parikhit/ShapeShift/assets/42086563/11bfaa78-478c-461c-a72b-d47745fa1d41 {width=100px height=400px})
+![Alt text2](https://github.com/Parikhit/ShapeShift/assets/42086563/c02534b7-1afc-4257-a191-a488d55129f6 {width=100px height=400px})
+![Alt text3](https://github.com/Parikhit/ShapeShift/assets/42086563/f193f098-df7a-4b93-8ec5-d1616606a1b0 {width=100px height=400px})
+![Alt text4](https://github.com/Parikhit/ShapeShift/assets/42086563/0b858424-fe12-4b2b-871a-91ffd22d3a8c {width=100px height=400px})
+![Alt text5](https://github.com/Parikhit/ShapeShift/assets/42086563/ac10e9dd-a4c3-4a86-9df4-718a439b0e04 {width=100px height=400px})
 
 
 
